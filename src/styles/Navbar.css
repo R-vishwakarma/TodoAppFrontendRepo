@@ -1,0 +1,68 @@
+/* Navbar.css */
+
+/* Custom Navbar Styling */
+.navbar-custom {
+  background-color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensures the navbar is always on top */
+  padding: 0.5rem 1rem; /* Reduced padding to make navbar smaller */
+}
+
+.navbar-brand-custom {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.4rem; /* Reduced font size */
+  text-transform: uppercase;
+  letter-spacing: 0.8px; /* Adjusted spacing for smaller text */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px; /* Reduced gap between navbar items */
+}
+
+.navbar-item {
+  color: #f8f9fa !important;
+  font-size: 1rem; /* Reduced font size */
+  text-transform: uppercase;
+  letter-spacing: 0.4px; /* Adjusted letter spacing */
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-item:hover {
+  color: #f39c12 !important;
+}
+
+.navbar-logout {
+  color: #ffffff;
+  border: 1px solid #f39c12;
+  background-color: transparent;
+  padding: 3px 12px; /* Reduced padding for logout button */
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar-logout:hover {
+  background-color: #f39c12;
+  color: #343a40;
+  border: 1px solid #f39c12;
+}
+
+.navbar-toggle {
+  border-color: #f39c12;
+}
+
+.navbar-toggler-icon {
+  background-color: #f39c12;
+}
+
+/* Make space for the fixed navbar */
+body {
+  padding-top: 60px; /* Adjusted to match reduced navbar height */
+}

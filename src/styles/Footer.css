@@ -1,0 +1,11 @@
+/* Footer.css */
+.footer-custom {
+  background-color: black; /* Ensuring footer has the same background color as the Navbar */
+  color: white; /* White text for footer */
+  padding: 0.5rem 0; /* Reduced padding for smaller height */
+}
+
+.footer-text {
+  font-size: 0.9rem; /* Slightly smaller font size */
+  text-align: center;
+}
